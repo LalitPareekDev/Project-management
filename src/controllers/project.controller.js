@@ -49,3 +49,5 @@ projectRouter.post('/add-project', verifyUser, async(req, res, next) => {
         return;
     }
 })
+
+module.exports = projectRouter;

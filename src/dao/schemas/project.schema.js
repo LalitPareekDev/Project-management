@@ -5,10 +5,6 @@ const schema = new mongoose.Schema({
         type: Number,
         required: true
     },
-    board_id :{
-        type: Number,
-        required: true
-    },
     projet_name :{
         type: String,
         required: true
